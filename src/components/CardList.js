@@ -11,7 +11,8 @@ const CardList = ({ robots }) => {
 					key={i} 
 					name={robots[i].name} 
 					id={robots[i].id} 
-					email={robots[i].email} 
+					email={robots[i].email}
+					zipcode={robots[i].address.zipcode}
 				/>
 			);
 		})
